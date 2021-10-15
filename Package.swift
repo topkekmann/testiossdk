@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "testiossdk",
+    platforms: [
+  .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
+],
     products: [
         .library(
             name: "testiossdk",
