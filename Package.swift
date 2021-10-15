@@ -9,11 +9,11 @@ let package = Package(
         .library(
             name: "testiossdk",
             targets: ["testiossdk"]),
-    ],
-    targets: [
-        .binaryTarget(
-          name: "testiossdk",
-          path: "./source/testsdk.xcframework")
-    ]
+   targets: [
+  .binaryTarget(
+    name: "testiossdk",
+    url: "https://example.com/CalendarControl.xcframework.zip",
+    checksum: "4d0beee2973877f04b122c9529881da69b6f8d37d8ef6ba9edd1284461354093")
+]
 )
 
