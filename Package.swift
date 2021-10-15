@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "libtesseract",
+  name: "testiossdk",
   products: [
     .library(
       name: "libtesseract",
@@ -13,7 +13,7 @@ let package = Package(
   dependencies: [],
   targets: [
     .binaryTarget(
-      name: "libtesseract",
+      name: "testiossdk",
       url: "https://github.com/SwiftyTesseract/libtesseract/releases/download/0.2.0/libtesseract-0.2.0.xcframework.zip",
       checksum: "cc42f3424047adc7064e6bb67d5039385629ee42199fcbb0553f57f1110d8c90"
     )
