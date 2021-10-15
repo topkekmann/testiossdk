@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "testiossdk",
-            targets: ["testiossdk"])
+            targets: ["testiossdk"]),
     ],
    targets: [
 	  .binaryTarget(
