@@ -6,8 +6,8 @@ let package = Package(
   name: "libtesseract",
   products: [
     .library(
-      name: "testiossdk",
-      targets: ["testiossdk"]
+      name: "libtesseract",
+      targets: ["libtesseract"]
     ),
   ],
   dependencies: [],
