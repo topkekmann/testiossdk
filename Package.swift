@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "testiossdk",
+  name: "libtesseract",
   products: [
     .library(
       name: "libtesseract",
