@@ -12,7 +12,7 @@ let package = Package(
    targets: [
   .binaryTarget(
     name: "testiossdk",
-    url: "https://github.com/topkekmann/testiossdk/releases/download/1.2/testsdk.xcframework.zip",
+    url: "https://github.com/topkekmann/testiossdk/releases/download/1.3/testsdk.xcframework.zip",
     checksum: "4d0beee2973877f04b122c9529881da69b6f8d37d8ef6ba9edd1284461354093")
 ]
 )
